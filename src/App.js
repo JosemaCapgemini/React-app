@@ -20,7 +20,7 @@ class App extends Component {
         </div>
         <div className="Todo">
           <h1>My first React app!</h1>
-          <p>You are welcome.</p>
+          <p>This is your list to do:</p>
           <Todo todo={this.state.todo} />
         </div>
 
