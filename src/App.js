@@ -8,8 +8,7 @@ class App extends Component {
     todo: [
       { things: "Tutorials", id: 1 },
       { things: "More tutorials", id: 2 },
-      { things: "More more more tutorials", id: 3 }
-    ]
+      { things: "More more more tutorials", id: 3 }]
   }
 
   render() {
