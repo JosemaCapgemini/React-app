@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Todo from './Todo';
+import Topbar from './Topbar';
 
 
 class App extends Component {
@@ -10,12 +11,19 @@ class App extends Component {
       { things: "More more more tutorials", id: 3 }
     ]
   }
+
   render() {
     return (
       <div className="App">
-        <h1>My first React app!</h1>
-        <p>You are welcome.</p>
-        <Todo todo={this.state.todo} />
+        <div className="Topbar">
+          <Topbar />
+        </div>
+        <div className="Todo">
+          <h1>My first React app!</h1>
+          <p>You are welcome.</p>
+          <Todo todo={this.state.todo} />
+        </div>
+
       </div>
     );
   }
